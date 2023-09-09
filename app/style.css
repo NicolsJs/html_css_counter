@@ -1,0 +1,16 @@
+*{
+    font-family: italic;
+    margin: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center; /* Aqui eu estou aliando horizontalmente */
+    align-items: center; /* Aqui eu estou aliando verticalmente */
+    height: 100vh; /* toda altura visível do navegador*/
+    background-color: #8594e4;
+}
+#reset{
+    width: 50%;
+    background-color: #6643b5;
+}
