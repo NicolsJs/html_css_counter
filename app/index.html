@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-    <script src="index.js"></script>
+
     <title>Contador</title>
 </head>
 <body>
     <div id="counter">
         <div>
-            <button id="plus" onclick="btnCode('plus')" class="count-button">
+            <button id="plus" onclick="incrementar()" class="count-button">
                 +
             </button>
             <span id="value">
                 0
             </span>
-            <button id="minus" onclick="btnCode('sub')" class="count-button">
+            <button id="minus" onclick="decrementar()" class="count-button">
                 -
             </button>
         </div>
-            <button id="reset" onclick="btnCode('reset')">
+            <button id="reset" onclick="reset()">
                 Reset
             </button>
     </div>
+    <script src="index.js"></script>
+
 </body>
 </html>

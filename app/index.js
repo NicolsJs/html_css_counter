@@ -1,16 +1,22 @@
-/*var count = 0 
+var count = 0; 
+document.querySelector("#value").innerHTML= count;
 
-$(document).getElementById(function(){
-  $("value").onclick(function(){
+function incrementar(){
+  count = count + 1 
+document.querySelector("#value").innerHTML= count;
 
-    if ()
+  console.log(count)
+}
+function decrementar(){
+  if (count <= 0 )
+  return
+  count = count - 1
+document.querySelector("#value").innerHTML= count;
 
-  });
-}); */
-
-function btnCode(action) {
-  var counterelement = parseInt($("acounterView")).html());
-  var response = 0;
 
 }
+function reset(){
+  count = 0
+document.querySelector("#value").innerHTML= count;
 
+}
